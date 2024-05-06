@@ -1,0 +1,47 @@
+/*! SVG TÃ¼rkiye HaritasÄ± | CSS | MIT Lisans | dnomak.com */
+
+.svg-turkiye-haritasi {
+    margin: 10px;
+    text-align: center;
+}
+
+.svg-turkiye-haritasi svg {
+    width: 100%;
+    height: auto;
+}
+
+.il-isimleri {
+    position: absolute;
+    z-index: 2;
+}
+
+.il-isimleri div {
+    font-family: 'Open Sans';
+    display: inline-block;
+    background: #f20022;
+    color: #fff;
+    padding: 8px 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#svg-turkiye-haritasi path {
+    cursor: pointer;
+}
+
+#svg-turkiye-haritasi path:hover {
+    fill: #666;
+}
+
+#guney-kibris {
+    pointer-events: none;
+}
+
+#adana, #adiyaman, #agri, #amasya, #artvin, #aydin, #balikesir, #bilecik, #bingol, #bitlis, #bolu, #burdur, #canakkale, #cankiri, #corum, #denizli, #diyarbakir, #edirne, #elazig, #erzincan, #eskisehir, #gaziantep, #giresun, #gumushane, #hakkari, #hatay, #isparta, #izmir, #kars, #kastamonu, #mersin, #kirklareli, #kirsehir, #kutahya, #malatya, #manisa, #kahramanmaras, #mardin, #mugla, #mus, #nevsehir, #nigde, #ordu, #rize, #samsun, #sakarya, #siirt, #sinop, #sivas, #tekirdag, #tokat, #tunceli, #sanliurfa, #usak, #van, #yozgat, #aksaray, #bayburt, #karaman, #kirikkale, #batman, #sirnak, #bartin, #ardahan, #igdir, #yalova, #karabuk, #kilis, #osmaniye, #duzce, #konya, #guney-kibris, #kuzey-kibris {
+    fill: rgba(60, 59, 58, 1);
+}
+
+#afyonkarahisar, #ankara, #antalya, #bursa, #erzurum, #istanbul, #trabzon, #zonguldak, #kayseri, #kocaeli {
+    fill: #f20022;
+}
