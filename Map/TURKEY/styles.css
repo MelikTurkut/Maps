@@ -3,6 +3,7 @@
 .svg-turkiye-haritasi {
     margin: 10px;
     text-align: center;
+    background-color: #000000;
 }
 
 .svg-turkiye-haritasi svg {
@@ -42,6 +43,6 @@
     fill: rgba(60, 59, 58, 1);
 }
 
-#afyonkarahisar, #ankara, #antalya, #bursa, #erzurum, #istanbul, #trabzon, #zonguldak, #kayseri, #kocaeli {
+#afyonkarahisar, #ankara, #antalya, #bursa, #erzurum, #istanbul, #trabzon, #zonguldak, #kayseri, #izmir, #kocaeli, #mugla, #aydin, #canakkale, #balikesir {
     fill: #f20022;
 }
